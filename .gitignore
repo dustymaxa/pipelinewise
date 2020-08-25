@@ -1,3 +1,6 @@
+# Maxa client projects
+*_db/
+
 # IDE
 .vscode
 .idea/*
