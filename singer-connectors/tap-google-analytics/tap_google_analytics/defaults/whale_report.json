@@ -1,0 +1,38 @@
+[
+  {
+    "name": "whale_report_1",
+    "dimensions": [
+      "ga:date"
+    ],
+    "metrics": [
+      "ga:avgSessionDuration",
+      "ga:bounceRate",
+      "ga:goal1Completions",
+      "ga:goal1ConversionRate",
+      "ga:newUsers",
+      "ga:pageviewsPerSession",
+      "ga:sessions",
+      "ga:totalEvents",
+      "ga:uniqueEvents",
+      "ga:users"
+    ]
+  },
+  {
+    "name": "whale_report_2",
+    "dimensions": [
+      "ga:date"
+    ],
+    "metrics": [
+      "ga:avgSessionDuration",
+      "ga:bounceRate",
+      "ga:goal2Completions",
+      "ga:goal2ConversionRate",
+      "ga:goal3Completions",
+      "ga:goal3ConversionRate",
+      "ga:newUsers",
+      "ga:pageviewsPerSession",
+      "ga:sessions",
+      "ga:users"
+    ]
+  }
+]
