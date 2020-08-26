@@ -601,7 +601,9 @@ class PipelineWise:
             self.logger.error('Directory exists and cannot create new project: %s', self.args.name)
             sys.exit(1)
         else:
-            os.mkdir(project_dir)
+            # maxa custom code
+            os.mkdir(project_dir, 0o777)
+            os.chmod(project_dir, 0o777)
 
         for yaml in sorted(utils.get_sample_file_paths()):
             yaml_basename = os.path.basename(yaml)
